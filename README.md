@@ -1,13 +1,13 @@
 # myToken Contract
 MyToken is a simple ERC20 token contract implemented in Solidity. It allows token minting and burning functionalities.
 
-#Minting Tokens
+## Minting Tokens
 The contract creates new contract using the provided a 'mint' function.
 
-#Burning Tokens
+## Burning Tokens
 Contract include 'burn' function that destroys tokens.
 
-#Requirements
+## Requirements
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
     3. You will have a mint function that takes two parameters: an address and a value. 
